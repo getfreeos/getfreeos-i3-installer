@@ -1,4 +1,4 @@
 #!/bin/bash
-yad --title "GetFreeOS Welcome" --form --columns=2 --width=480 --height=150 --text="to start calamares in Terminal sudo." --image=/usr/share/icons/scalable/apps/getfreeoslinux.png  \
---field="<b>Or click here to start calamares</b>":fbtn "xterm -e sh '/usr/local/bin/data/1-calamares'" \
+yad --title "GetFreeOS" --form --columns=2 --width=480 --height=150 --text="" --image=/usr/share/icons/scalable/apps/getfreeoslinux.png  \
+--field="<b>Click here to start calamares to install the OS</b>":fbtn "xterm -e sh '/usr/local/bin/data/1-calamares'" \
 --button=Exit:1
